@@ -3,27 +3,27 @@ import "./terminal.css";
 const PortfolioTerminal = () => {
   const terminalData = [
     {
-      command: "whoami",
+      command: "<span class='command'> whoami</span>",
       results: ["Abdessalam, Software Engineer"],
     },
     {
-      command: "page said",
+      command: "<span class='command'>pagesay </span > ",
       results: [
         "Welcome to my portfolio!",
-        "<a href='/' target='_blank'>Click here</a> to view my resume.",
+        "<a class='link' href='/' target='_blank'>Click here</a> to view my resume.",
       ],
     },
     {
-      command: "skillset.sh",
+      command: "<span class='command'>skillset.sh </span >",
       results: ["Full-stack development, Linux, and DevOps"],
     },
     {
-      command: "ls projects",
+      command: "<span class='command'>ls</span > projects",
       results: ["face recognition app", "web apps", "automation tools"],
     },
     {
-      command: "contact_me.sh",
-      results: ["Contact me at: your.email@example.com"],
+      command: "<span class='command'>contact_me.sh</span >",
+      results: ["mail: a className='link' href='mailto:abdoowizli@gmail.com?subject=Hello&body=Hi there!'>abdoo</a>", "LinkedIn : <a  class='link' href='https://www.linkedin.com/in/abdessalam-wizli/' target='_blank'>abdessalam ouazri</a>"],
     },
   ];
 
@@ -38,11 +38,16 @@ const PortfolioTerminal = () => {
           backSpeed: 30,
           startDelay: 500,
           cursorChar: "|",
+
         }}
         promptText="wizli@archlinux:~$"
+        key={terminalData.length}
         
       />
+     
+
     </div>
+    
   );
 };
 

@@ -37,3 +37,9 @@ body {
 .TerminalPrompt {
   color: #4af626;
 }
+.command {
+  color: blue;
+}
+.link {
+  color: chartreuse;
+}
