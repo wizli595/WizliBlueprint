@@ -23,8 +23,10 @@ const PortfolioTerminal = () => {
     },
     {
       command: "<span class='command'>contact_me.sh</span >",
-      results: ["mail: a className='link' href='mailto:abdoowizli@gmail.com?subject=Hello&body=Hi there!'>abdoo</a>", "LinkedIn : <a  class='link' href='https://www.linkedin.com/in/abdessalam-wizli/' target='_blank'>abdessalam ouazri</a>"],
-    },
+      results: [
+        "mail: <a class='link' href='mailto:abdoowizli@gmail.com?subject=Hello&body=Hi there!'>abdessalam</a>",
+        "LinkedIn: <a class='link' href='https://www.linkedin.com/in/abdessalam-wizli/' target='_blank'>abdessalam ouazri</a>"
+      ],},
   ];
 
   return (

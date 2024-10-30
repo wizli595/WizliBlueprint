@@ -43,3 +43,19 @@ body {
 .link {
   color: chartreuse;
 }
+@media (max-width: 600px) {
+  .TerminalWrapper {
+    padding: 10px;
+  }
+
+  .TerminalTitle {
+    font-size: 12px;
+    padding: 6px 0;
+  }
+
+  .TerminalPrompt,
+  .command,
+  .link {
+    font-size: 14px;
+  }
+}
